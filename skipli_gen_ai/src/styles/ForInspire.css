@@ -1,0 +1,27 @@
+.generate_form_topic {
+  margin: 0;
+  width: 100%;
+}
+
+.idea_container {
+  width: 500px;
+  padding: 30px 40px;
+  font-size: 20px;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  display: block;
+  text-decoration: none;
+  color: black;
+}
+
+.idea_container:hover {
+  scale: 1.05;
+  transition: 0.3s;
+}
+
+.idea__textarea {
+  width: 480px;
+  height: 150px;
+  font-size: 20px;
+}

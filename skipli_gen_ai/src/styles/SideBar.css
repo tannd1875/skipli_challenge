@@ -1,0 +1,37 @@
+.sidebar {
+  background-color: #f6ececd7;
+  width: 300px;
+  height: 100vh;
+  padding-top: 30px;
+  position: sticky;
+  top: 0;
+  left: 0;
+}
+.sidebar__body {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.sidebar__item {
+  font-size: 20px;
+  width: 95%;
+  padding-left: 30px;
+  box-sizing: border-box;
+}
+
+.sidebar__item:hover {
+  cursor: pointer;
+  scale: 1.1;
+  background-color: beige;
+}
+
+.sidebar__item__icon {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.sidebar__item__name {
+  display: inline-block;
+}
